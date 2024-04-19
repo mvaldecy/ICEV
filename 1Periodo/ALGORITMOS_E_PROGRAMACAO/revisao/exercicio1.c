@@ -14,6 +14,4 @@ int main(){
     printf("Valor do quilowatt: R$ %.2f\n", valorKw);
     printf("Valor da conta de energia: R$ %.2f\n", consumo);
     printf("Valor da conta com desconto: R$ %.2f\n", consumo*0.9);
-
-
 }
