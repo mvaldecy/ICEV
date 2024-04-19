@@ -8,8 +8,9 @@ char cdu[3], i, aux;
 
 int main() {
     printf("Insira um número de 3 algarismos.\n");
-    scanf("%s", &cdu);
+    scanf("%s", cdu);
     aux = cdu[0];
+    
     cdu[0] = cdu[2];
     cdu[2] = aux;
     printf("%s\n", cdu);
