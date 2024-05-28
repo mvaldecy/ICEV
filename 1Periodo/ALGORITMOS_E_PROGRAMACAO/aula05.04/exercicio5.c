@@ -21,6 +21,7 @@ int main() {
         "Novembro",
         "Dezembro"
     };
+    
     printf("Insira o número do mês\n");
     scanf("%d", &inputNum);
     if (inputNum < 1 || inputNum > 12) {
